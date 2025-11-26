@@ -1,4 +1,4 @@
-/* Reset i estil general */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@ body {
   border-collapse: collapse;
 }
 
-/* Capçalera */
+
 .capçalera {
   background-color: #e8e8e8;
 }
@@ -65,14 +65,14 @@ body {
   transform: scale(1.2);
 }
 
-/* Cerca */
+
 .entrada-cerca {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #aaa;
 }
 
-/* Cos principal */
+
 .cos {
   text-align: center;
   padding: 40px 0;
@@ -89,7 +89,7 @@ body {
   margin-top: 0;
 }
 
-/* Peu de pàgina */
+
 .peu {
   background-color: #e8e8e8;
   padding: 20px;
@@ -101,7 +101,7 @@ body {
   text-align: left;
 }
 
-/* Xarxes socials */
+
 .socials {
   margin: 0 auto;
 }
@@ -140,9 +140,9 @@ body {
   background-color: #1877f2;
 }
 
-/* Política Legal */
+
 .politica-legal {
-  background-color: #e8e8e8; /* mateix color que el peu */
+  background-color: #e8e8e8; 
   padding: 15px 0;
   font-size: 0.85em;
   text-align: center;
