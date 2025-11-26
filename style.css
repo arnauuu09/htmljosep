@@ -1,160 +1,35 @@
+body { margin:0; font-family:Arial,sans-serif; background:#f2f2f2; color:#333; }
+.pagina { width:100%; border-collapse:collapse; }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  color: #333;
-}
+.capçalera { background:#e8e8e8; }
+.capçalera td { vertical-align:middle; }
+.logotip { font-size:24px; font-weight:bold; border:2px solid #333; padding:5px 10px; border-radius:5px; }
+.menú { text-align:center; }
+.boto-menu { background:#d3d3d3; border:none; padding:8px 15px; border-radius:10px; font-weight:bold; cursor:pointer; margin:0 5px; transition:all 0.3s; }
+.boto-menu:hover { background:#bcbcbc; transform:scale(1.05); }
+.icones { text-align:right; }
+.boto-icona { background:none; border:none; font-size:20px; cursor:pointer; margin-left:10px; transition:transform 0.2s; }
+.boto-icona:hover { transform:scale(1.2); }
+.entrada-cerca { padding:5px; border-radius:5px; border:1px solid #aaa; }
 
-.pagina {
-  width: 100%;
-  border-collapse: collapse;
-}
+.cos { text-align:center; padding:40px 0; }
+.cos h1 { font-size:40px; margin-bottom:10px; }
+.cos h2 { font-size:30px; font-weight:bold; margin-top:0; }
 
+.productes { padding:30px 0; }
+.productes td { text-align:center; vertical-align:top; }
+.productes img { max-width:150px; height:auto; margin-bottom:10px; }
 
-.capçalera {
-  background-color: #e8e8e8;
-}
+.peu { background:#e8e8e8; padding:20px; text-align:center; }
+.peu p { margin:5px 0 15px; text-align:left; }
 
-.capçalera td {
-  vertical-align: middle;
-}
+.socials { margin:0 auto; }
+.boto-social { display:inline-block; padding:10px; border-radius:50%; color:white; font-size:18px; border:none; cursor:pointer; transition:transform 0.3s; }
+.boto-social:hover { transform:scale(1.1); }
+.correu { background:red; }
+.instagram { background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }
+.facebook { background:#1877f2; }
 
-.logotip {
-  font-size: 24px;
-  font-weight: bold;
-  border: 2px solid #333;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.menú {
-  text-align: center;
-}
-
-.boto-menu {
-  background-color: #d3d3d3;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  margin: 0 5px;
-  transition: all 0.3s ease;
-}
-
-.boto-menu:hover {
-  background-color: #bcbcbc;
-  transform: scale(1.05);
-}
-
-.icones {
-  text-align: right;
-}
-
-.boto-icona {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: transform 0.2s;
-}
-
-.boto-icona:hover {
-  transform: scale(1.2);
-}
-
-
-.entrada-cerca {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #aaa;
-}
-
-
-.cos {
-  text-align: center;
-  padding: 40px 0;
-}
-
-.cos h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-.cos h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-
-.peu {
-  background-color: #e8e8e8;
-  padding: 20px;
-  text-align: center;
-}
-
-.peu p {
-  margin: 5px 0 15px;
-  text-align: left;
-}
-
-
-.socials {
-  margin: 0 auto;
-}
-
-.boto-social {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  color: white;
-  transition: transform 0.3s;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-}
-
-.boto-social:hover {
-  transform: scale(1.1);
-}
-
-.correu {
-  background-color: red;
-}
-
-.instagram {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-}
-
-.facebook {
-  background-color: #1877f2;
-}
-
-
-.politica-legal {
-  background-color: #e8e8e8; 
-  padding: 15px 0;
-  font-size: 0.85em;
-  text-align: center;
-}
-
-.politica-legal a {
-  color: #333;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-.politica-legal a:hover {
-  text-decoration: underline;
-}
+.politica-legal { background:#e8e8e8; padding:15px 0; font-size:0.85em; text-align:center; }
+.politica-legal a { color:#333; text-decoration:none; margin:0 15px; font-weight:bold; }
+.politica-legal a:hover { text-decoration:underline; }
