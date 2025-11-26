@@ -1,194 +1,160 @@
+/* Reset i estil general */
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background-color: #f2f2f2;
-color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
 }
 
-
-
-
-.page {
-width: 100%;
-border-collapse: collapse;
+.pagina {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-
-
-
-.header {
-width: 100%;
-background-color: #e8e8e8;
-padding: 10px;
+/* Capçalera */
+.capçalera {
+  background-color: #e8e8e8;
 }
 
-
-
-
-.header td {
-vertical-align: middle;
+.capçalera td {
+  vertical-align: middle;
 }
 
-
-
-
-.logo {
-font-size: 24px;
-font-weight: bold;
-border: 2px solid #333;
-padding: 5px 10px;
-border-radius: 5px;
-width: 20%;
+.logotip {
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid #333;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-
-
-
-.menu {
-text-align: center;
-width: 60%;
+.menú {
+  text-align: center;
 }
 
-
-
-
-.menu-btn {
-background-color: #d3d3d3;
-border: none;
-padding: 8px 15px;
-border-radius: 10px;
-font-weight: bold;
-cursor: pointer;
-margin: 0 5px;
-transition: all 0.3s ease;
+.boto-menu {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: all 0.3s ease;
 }
 
-
-
-
-.menu-btn:hover {
-background-color: #bcbcbc;
-transform: scale(1.05);
+.boto-menu:hover {
+  background-color: #bcbcbc;
+  transform: scale(1.05);
 }
 
-
-
-
-.icons {
-width: 20%;
-text-align: right;
+.icones {
+  text-align: right;
 }
 
-
-
-
-.icon-btn {
-background: none;
-border: none;
-font-size: 20px;
-cursor: pointer;
-margin-left: 10px;
-transition: transform 0.2s;
+.boto-icona {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s;
 }
 
-
-
-
-.icon-btn:hover {
-transform: scale(1.2);
+.boto-icona:hover {
+  transform: scale(1.2);
 }
 
-
-
-
-.main {
-width: 100%;
-padding: 40px 0;
-text-align: center;
+/* Cerca */
+.entrada-cerca {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
 }
 
-
-
-
-.main h1 {
-font-size: 40px;
-font-family: Arial, sans-serif;
-margin-bottom: 10px;
+/* Cos principal */
+.cos {
+  text-align: center;
+  padding: 40px 0;
 }
 
-
-
-
-.main h2 {
-font-size: 30px;
-font-weight: bold;
-margin-top: 0;
+.cos h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
-
-
-
-.footer {
-width: 100%;
-background-color: #e8e8e8;
-padding: 20px;
-text-align: center;
+.cos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-
-
-
-.footer p {
-margin: 5px 0 15px;
-text-align: left;
+/* Peu de pàgina */
+.peu {
+  background-color: #e8e8e8;
+  padding: 20px;
+  text-align: center;
 }
 
-
-
-
-.social {
-display: flex;
-justify-content: center;
-gap: 10px;
-text-align: right;
+.peu p {
+  margin: 5px 0 15px;
+  text-align: left;
 }
 
-
-
-
-.social-btn {
-display: inline-block;
-padding: 10px;
-border-radius: 50%;
-color: white;
-transition: transform 0.3s;
-font-size: 18px;
+/* Xarxes socials */
+.socials {
+  margin: 0 auto;
 }
 
-
-
-
-.social-btn:hover {
-transform: scale(1.1);
+.boto-social {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  transition: transform 0.3s;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
 }
 
-
-
-
-.email {
-background-color: red;
+.boto-social:hover {
+  transform: scale(1.1);
 }
 
-
-
+.correu {
+  background-color: red;
+}
 
 .instagram {
-background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
 
-
-
-
 .facebook {
-background-color: #1877F2;
+  background-color: #1877f2;
+}
+
+/* Política Legal */
+.politica-legal {
+  background-color: #e8e8e8; /* mateix color que el peu */
+  padding: 15px 0;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.politica-legal a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.politica-legal a:hover {
+  text-decoration: underline;
 }
