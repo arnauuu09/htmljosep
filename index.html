@@ -1,45 +1,109 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
 
+<table
+  class="pagina"
+  border="0"
+  cellpadding="15"
+  cellspacing="5"
+  width="100%"
+>
+  <!-- Capçalera -->
+  <tr class="capçalera">
+    <td class="logotip" width="20%">Stock-A23</td>
 
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-<table class="page" border="0" cellpadding="15" cellspacing="5">
-  <tr class="header">
-    <td class="logo">Stock-A23</td>
-    <td class="menu">
-      <button class="menu-btn">Adidas</button>
-      <button class="menu-btn">Nike & Jordan</button>
+    <td class="menú" width="50%" align="center">
+      <button class="boto-menu">Adidas</button>
+      <button class="boto-menu">Nike & Jordan</button>
+      <button class="boto-menu">North Face</button>
     </td>
-    <td class="icons">
-      <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
-      <button class="icon-btn"><i class="fas fa-bars"></i></button>
+
+    <td class="icones" width="30%" align="right">
+      <table border="0" cellpadding="3" cellspacing="3">
+        <tr>
+          <td>
+            <button class="boto-icona">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </td>
+          <td>
+            <button class="boto-icona"><i class="fas fa-bars"></i></button>
+          </td>
+          <td>
+            <table
+              border="0"
+              cellpadding="2"
+              cellspacing="2"
+              class="cerca"
+            >
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="Cerca..."
+                    class="entrada-cerca"
+                  />
+                </td>
+                <td>
+                  <button class="boto-icona">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 
-
-
-
-  <tr class="main">
-    <td colspan="3">
+  <!-- Cos principal -->
+  <tr class="cos">
+    <td colspan="3" align="center">
       <h1>Stock-A23</h1>
       <h2>Millor Preu x Millor Qualitat</h2>
     </td>
   </tr>
 
-
-
-
-  <tr class="footer">
+  <!-- Peu de pàgina -->
+  <tr class="peu">
     <td colspan="3">
       <p><em>Production:</em> <b>Arnau Altimira</b></p>
-      <div class="social">
-        <div class="social-btn email"><i class="fas fa-envelope"></i></div>
-        <div class="social-btn instagram"><i class="fab fa-instagram"></i></div>
-        <div class="social-btn facebook"><i class="fab fa-facebook-f"></i></div>
-      </div>
+      <table class="socials" align="center" cellspacing="10">
+        <tr>
+          <td>
+            <button class="boto-social correu">
+              <i class="fas fa-envelope"></i>
+            </button>
+          </td>
+          <td>
+            <button class="boto-social instagram">
+              <i class="fab fa-instagram"></i>
+            </button>
+          </td>
+          <td>
+            <button class="boto-social facebook">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Política Legal -->
+  <tr class="politica-legal">
+    <td colspan="3">
+      <table border="0" cellpadding="5" cellspacing="5" width="100%">
+        <tr>
+          <td align="center"><a href="#">Avís Legal</a></td>
+          <td align="center"><a href="#">Política de Privacitat</a></td>
+          <td align="center"><a href="#">Política de Cookies</a></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
